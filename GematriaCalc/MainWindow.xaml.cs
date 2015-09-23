@@ -57,5 +57,15 @@ namespace GematriaCalc
         {
             this.Close();
         }
+
+        private void XloseMouseMove(object sender, MouseEventArgs e)
+        {
+            xloseBtn.Background = Brushes.Gray;
+        }
+
+        private void XcloseMouseLeave(object sender, MouseEventArgs e)
+        {
+            xloseBtn.Background = Brushes.Black;
+        }
     }
 }
