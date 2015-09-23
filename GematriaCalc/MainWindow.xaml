@@ -1,0 +1,34 @@
+﻿<Window x:Class="GematriaCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GematriaCalc"
+        mc:Ignorable="d"
+        Title="Gematria Calc" Height="350" Width="525" WindowStyle="None" AllowsTransparency="True">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.5" Color="Black"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="HoverColor" TargetType="{x:Type Button}">
+            
+            <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True" >
+                        <Setter Property="Background" Value="Red"/>
+                    </Trigger>
+                </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <Border x:Name="TitleBar" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Height="30" VerticalAlignment="Top" Background="Black" MouseDown="TitleBarMouseDown">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Gematria Key" Foreground="#FFFDFDFD" Margin="10,0,0,0" VerticalAlignment="Center">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="Gray" ShadowDepth="3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+                <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="{x:Null}" Foreground="White" Content="X" Margin="420,4,0,4" Width="20" Height="20" BorderBrush="{x:Null}" Click="XloseClicked"/>
+            </StackPanel>
+        </Border>
+    </DockPanel>
+</Window>
