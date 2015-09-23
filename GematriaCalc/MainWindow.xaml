@@ -32,10 +32,15 @@
                         <DropShadowEffect Color="Gray" ShadowDepth="3"/>
                     </TextBlock.Effect>
                 </TextBlock>
-                <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="Black" Foreground="White" Content="X" Margin="400,4,5,4" Width="20" Height="20" BorderBrush="{x:Null}" Click="XloseClicked" MouseMove="XloseMouseMove" MouseLeave="XcloseMouseLeave" Opacity="0.75" FontFamily="DejaVu Sans" BorderThickness="1,1,0,1"/>
+                <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}"  HorizontalAlignment="Right" VerticalAlignment="Center" Background="Black" Foreground="White" Content="X" Margin="400,4,5,4" Width="25" Height="25" BorderBrush="{x:Null}" Click="XloseClicked" MouseMove="XloseMouseMove" MouseLeave="XcloseMouseLeave" Opacity="0.75" FontFamily="DejaVu Sans" BorderThickness="1,1,0,1"/>
             </Grid>
         </Border>
-        <TextBox x:Name="textBox" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="2,50,0,0" HorizontalAlignment="Center" FontFamily="DejaVu Sans"/>
-        <GroupBox x:Name="groupBox" Header="Gematria&#xD;&#xA;" Height="218" VerticalAlignment="Top" Margin="25,102,27,0" HorizontalAlignment="Center" Width="473" FontFamily="Microsoft Sans Serif" Foreground="White"/>
+        <TextBox x:Name="textBox" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="2,50,0,0" HorizontalAlignment="Center" FontFamily="DejaVu Sans" Text=""/>
+        <GroupBox x:Name="groupBox" Header="Gematria&#xD;&#xA;" Height="218" VerticalAlignment="Top" Margin="25,102,27,0" HorizontalAlignment="Center" Width="473" FontFamily="Microsoft Sans Serif" Foreground="White">
+            <Button x:Name="aBtn" Content="α" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" BorderThickness="1,0,1,1" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontSize="18.667" Width="25" RenderTransformOrigin="2.097,0.825" FontFamily="Edwardian Script ITC"/>
+        </GroupBox>
+        <Button x:Name="bBtn" Content="β" HorizontalAlignment="Left" Margin="74,130,0,0" VerticalAlignment="Top" Width="25" Height="24" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="18.667"/>
+        <Button x:Name="gBtn" Width="25" Height="24" Content="γ" Margin="107,130,393,296" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="18.667" />
+        <Button x:Name="dBtn" Width="25" Height="24" Content="δ" FontFamily="Edwardian Script ITC" FontSize="18.667" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Margin="142,130,358,296"/>
     </Grid>
 </Window>
