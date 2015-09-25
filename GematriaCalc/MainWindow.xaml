@@ -4,8 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GematriaCalc"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:WindowsFormsIntegration="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
         mc:Ignorable="d"
-        Title="Gematria Calc" Height="450" Width="525" WindowStyle="None" AllowsTransparency="True">
+        Title="Gematria Calc" Height="450" Width="525" WindowStyle="None" AllowsTransparency="True" xml:lang="el">
     <Window.Background>
         <SolidColorBrush Opacity="0.5" Color="Black"/>
     </Window.Background>
@@ -23,52 +25,53 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid x:Name="mainGrid" MouseEnter="mainGridHasMouse" MouseLeave="mainGridLostMouse">
         <Border x:Name="TitleBar" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Height="44" VerticalAlignment="Top" Background="Black" MouseDown="TitleBarMouseDown">
             <Grid >
-                <Image x:Name="appIconImg" Source="Alpha.ico" Width="24" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                <Image x:Name="appIconImg" Source="Alpha2.ico" Width="24" HorizontalAlignment="Left" Margin="10,0,0,0"/>
                 <TextBlock x:Name="TitleBlk" Text="Gematria Calc" Foreground="#FFFDFDFD" Margin="45,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                     <TextBlock.Effect>
                         <DropShadowEffect Color="Gray" ShadowDepth="3"/>
                     </TextBlock.Effect>
                 </TextBlock>
-                <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}" Background="Black" Foreground="White" Content="x" Margin="482,0,0,0" Height="42" BorderBrush="{x:Null}" Click="XloseClicked" MouseMove="XloseMouseMove" MouseLeave="XcloseMouseLeave" Opacity="0.75" FontFamily="DejaVu Sans" BorderThickness="1,1,0,1" Width="42" HorizontalAlignment="Right" FontSize="18.667"/>
+                <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}" Background="Black" Foreground="White" Content="x" Margin="482,0,0,0" Height="42" BorderBrush="{x:Null}" Click="XloseClicked" MouseMove="XloseMouseMove" MouseLeave="XcloseMouseLeave" Opacity="0.75" FontFamily="Calibri" BorderThickness="1,1,0,1" Width="42" HorizontalAlignment="Right" FontSize="18.667"/>
             </Grid>
         </Border>
-        <TextBox x:Name="textBox" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="204,63,201,0" HorizontalAlignment="Center" FontFamily="DejaVu Sans" Text=""/>
+        <TextBox x:Name="logosBx" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="204,63,201,0" HorizontalAlignment="Center" FontFamily="DejaVu Sans" FontSize="18.667"/>
         <GroupBox x:Name="groupBox" Header="Gematria&#xD;&#xA;" Height="218" VerticalAlignment="Top" Margin="25,102,27,0" HorizontalAlignment="Center" Width="473" FontFamily="Microsoft Sans Serif" Foreground="White">
             <Grid Margin="2,0,-2,0">
-                <Button x:Name="aBtn" Width="45" Height="40" Content="α" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="10,10,406,134"/>
-                <Button x:Name="bBtn" Content="β" Margin="60,10,356,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="gBtn" Width="45" Height="40" Content="γ" Margin="110,10,306,134" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" RenderTransformOrigin="0.571,1.258" />
-                <Button x:Name="dBtn" Width="45" Height="40" Content="δ" FontFamily="Edwardian Script ITC" FontSize="26.667" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Margin="160,10,256,134"/>
-                <Button x:Name="eBtn" Content="ε" Margin="210,10,206,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" RenderTransformOrigin="0.277,2.728"/>
-                <Button x:Name="wauBtn" Width="45" Height="40" Content="ϝ" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="260,10,156,134" RenderTransformOrigin="0.428,1.846"/>
-                <Button x:Name="zBtn" Content="ζ"  Margin="310,10,106,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="hBtn" Content="η"  Margin="360,10,56,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="thBtn" Content="θ" Margin="410,10,6,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="iBtn" Content="ι"  Margin="10,69,406,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="kBtn" Content="κ"  Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="60,69,356,75"/>
-                <Button x:Name="lBtn" Content="λ" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="110,69,306,75"/>
-                <Button x:Name="mBtn" Content="μ" Width="45" Height="40"  Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="160,69,256,75"/>
-                <Button x:Name="nBtn" Content="ν" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="210,69,206,75"/>
-                <Button x:Name="xBtn" Content="ξ" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="260,69,156,75"/>
-                <Button x:Name="oBtn" Content="ο" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667" Margin="310,69,106,75"/>
-                <Button x:Name="pBtn" Content="π" Margin="360,69,56,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="rBtn" Content="ρ" Margin="410,69,6,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="sBtn" Content="σ, ς" Margin="10,128,406,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="tBtn" Content="τ" Margin="60,128,356,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="uBtn" Content="υ" Margin="110,128,306,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="fBtn" Content="φ" Margin="160,128,256,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="chBtn" Content="χ" Margin="210,128,206,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="psBtn" Content="ψ" Margin="260,128,156,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="omBtn" Content="ω" Margin="310,128,106,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
-                <Button x:Name="clearBtn" Content="C" Margin="410,128,6,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC" FontSize="26.667"/>
+                <Button x:Name="aBtn" Width="45" Height="40" Content="α" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="10,10,406,134" Click="aBtnClicked"/>
+                <Button x:Name="bBtn" Content="β" Margin="60,10,356,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="bBtnClicked"/>
+                <Button x:Name="gBtn" Width="45" Height="40" Content="γ" Margin="110,10,306,134" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" RenderTransformOrigin="0.571,1.258" Click="gBtnclicked" />
+                <Button x:Name="dBtn" Width="45" Height="40" Content="δ" FontFamily="DejaVu Serif" FontSize="26.667" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Margin="160,10,256,134" Click="dBtnClicked"/>
+                <Button x:Name="eBtn" Content="ε" Margin="210,10,206,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" RenderTransformOrigin="0.277,2.728" Click="eBtnClicked"/>
+                <Button x:Name="wauBtn" Width="45" Height="40" Content="ϝ" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="260,10,156,134" RenderTransformOrigin="0.428,1.846" Click="wauBtnClicked"/>
+                <Button x:Name="zBtn" Content="ζ"  Margin="310,10,106,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="zBtnClicked"/>
+                <Button x:Name="hBtn" Content="η"  Margin="360,10,56,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="hBtnClicked"/>
+                <Button x:Name="thBtn" Content="θ" Margin="410,10,6,134" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="thBtnClicked"/>
+                <Button x:Name="iBtn" Content="ι"  Margin="10,69,406,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="iBtnClicked"/>
+                <Button x:Name="kBtn" Content="κ"  Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="60,69,356,75" Click="kBtnClicked"/>
+                <Button x:Name="lBtn" Content="λ" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="110,69,306,75" Click="lBtnClicked"/>
+                <Button x:Name="mBtn" Content="μ" Width="45" Height="40"  Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="160,69,256,75" Click="mBtnClicked"/>
+                <Button x:Name="nBtn" Content="ν" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="210,69,206,75" Click="nBtnClicked"/>
+                <Button x:Name="xBtn" Content="ξ" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="260,69,156,75" Click="xBtnClicked"/>
+                <Button x:Name="oBtn" Content="ο" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Margin="310,69,106,75" Click="oBtnClicked"/>
+                <Button x:Name="pBtn" Content="π" Margin="360,69,56,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="pBtnClicked"/>
+                <Button x:Name="rBtn" Content="ρ" Margin="410,69,6,75" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="rBtnClicked"/>
+                <Button x:Name="sBtn" Content="σ, ς" Margin="10,128,406,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="21.333" Click="sBtnClicked"/>
+                <Button x:Name="tBtn" Content="τ" Margin="60,128,356,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="tBtnClicked"/>
+                <Button x:Name="uBtn" Content="υ" Margin="110,128,306,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="uBtnClicked"/>
+                <Button x:Name="fBtn" Content="φ" Margin="160,128,256,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="fBtnClicked"/>
+                <Button x:Name="chBtn" Content="χ" Margin="210,128,206,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="chBtnClicked"/>
+                <Button x:Name="psBtn" Content="ψ" Margin="260,128,156,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="psBtnClicked"/>
+                <Button x:Name="omBtn" Content="ω" Margin="310,128,106,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="omBtnClicked"/>
+                <Button x:Name="clearBtn" Content="C" Margin="410,128,6,16" Width="45" Height="40" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" FontSize="26.667" Click="clearBtnClicked"/>
             </Grid>
         </GroupBox>
-        <Grid HorizontalAlignment="Center" Height="115" Margin="25,325,0,0" VerticalAlignment="Top" Width="473">
-            <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="69,34,0,0" VerticalAlignment="Top" Background="White" Width="138"/>
-            <Button x:Name="calcBtn" Content="Calculate" HorizontalAlignment="Left" Margin="228,34,0,0" VerticalAlignment="Top" Width="75" Height="26" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Edwardian Script ITC"/>
+        <Grid HorizontalAlignment="Center" Height="83" Margin="38,325,13,0" VerticalAlignment="Top" Width="474">
+            <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="69,34,0,0" VerticalAlignment="Top" Background="White" Width="138" FontFamily="DejaVu Sans"/>
+            <Button x:Name="calcBtn" Content="Calculate" HorizontalAlignment="Left" Margin="228,34,0,0" VerticalAlignment="Top" Width="75" Height="26" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" Click="calcBtnClicked"/>
         </Grid>
+        <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="54" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="DejaVu Serif" Click="exitBtnClicked" />
     </Grid>
 </Window>
