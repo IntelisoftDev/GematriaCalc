@@ -1,0 +1,13 @@
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.exe.config
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.exe
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.pdb
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\MainWindow.g.cs
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\App.g.cs
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc_MarkupCompile.cache
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc_MarkupCompile.lref
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\MainWindow.baml
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.g.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.Properties.Resources.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.csproj.GenerateResource.Cache
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.exe
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.pdb
