@@ -1,17 +1,3 @@
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.exe.config
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.exe
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.pdb
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.csprojResolveAssemblyReference.cache
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\MainWindow.g.cs
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\App.g.cs
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc_MarkupCompile.cache
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc_MarkupCompile.lref
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\MainWindow.baml
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.g.resources
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.Properties.Resources.resources
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.csproj.GenerateResource.Cache
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.exe
-c:\users\andrew\documents\visual studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.pdb
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.exe.config
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.exe
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.pdb
@@ -26,3 +12,17 @@ C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\Ma
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.g.resources
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.Properties.Resources.resources
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\MainWindow.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc_MarkupCompile.cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc_MarkupCompile.lref
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Debug\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\MainWindow.baml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.g.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\GematriaCalc.csprojResolveAssemblyReference.cache

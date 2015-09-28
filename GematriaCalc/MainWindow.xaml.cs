@@ -22,28 +22,12 @@ namespace GematriaCalc
     /// </summary>
     public partial class MainWindow : Window
     {
-        private List<string> logosList = new List<string>();
         public MainWindow()
         {
             InitializeComponent();
-            //InputLanguageManager.SetInputLanguage(logosBx, CultureInfo.CreateSpecificCulture("el-GR"));
         }
         static Window Window { get { return System.Windows.Application.Current.MainWindow; } }
         public int m_grSum = 0;
-        public static InputLanguage GetInputLanguageByName(string inputName)
-        {
-            foreach (InputLanguage lang in InputLanguage.InstalledInputLanguages)
-            {
-                if (lang.Culture.EnglishName.ToLower().StartsWith(inputName))
-                    return lang;
-            }
-            return null;
-        }
-
-        public void SetKeyboardLayout(InputLanguage layout)
-        {
-            InputLanguage.CurrentInputLanguage = layout;
-        }
 
         private void TitleBarMouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -95,156 +79,147 @@ namespace GematriaCalc
 
         private void aBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "a";
         }
 
         private void bBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "b";
         }
 
         private void gBtnclicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "g";
         }
 
         private void dBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "d";
         }
 
         private void eBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "e";
         }
 
         private void wauBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "ϝ";
         }
 
         private void zBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "z";
         }
 
         private void hBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "h";
         }
 
         private void thBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "q";
         }
 
         private void iBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "i";
         }
 
         private void kBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "k";
         }
 
         private void lBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "l";
         }
 
         private void mBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "m";
         }
 
         private void nBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "n";
         }
 
         private void xBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "x";
         }
 
         private void oBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "o";
         }
 
         private void pBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "p";
         }
 
         private void rBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "r";
         }
 
         private void sBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "s";
         }
 
         private void tBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "t";
         }
 
         private void uBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "u";
         }
 
         private void fBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "f";
         }
 
         private void chBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "c";
         }
 
         private void psBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "y";
         }
 
         private void omBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text += "w";
         }
 
         private void clearBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            logosBx.Text = "";
         }
 
         private void calcBtnClicked(object sender, RoutedEventArgs e)
         {
             int len = 0;
-            while(len <= logosBx.Text.Length)
+            int Σ = 0;
+            while (len <= logosBx.Text.Length)
             {
-                switch(logosBx.Text)
+                if(logosBx.Text == "a")
                 {
-                    case "":
-                    case "a":
-                        m_grSum += 1;
+                    Σ += 1;
                 }
+                len += 1;
             }
-        }
-
-        private void mainGridLostMouse(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            InputLanguageManager.SetInputLanguage(logosBx, CultureInfo.CreateSpecificCulture("en-US"));
-        }
-
-        private void mainGridHasMouse(object sender, System.Windows.Input.MouseEventArgs e)
-        {
-            InputLanguageManager.SetInputLanguage(logosBx, CultureInfo.CreateSpecificCulture("el-GR"));
+            sumLbn.Content = Σ.ToString();
         }
     }
 }
