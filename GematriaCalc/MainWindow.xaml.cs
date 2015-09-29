@@ -211,25 +211,38 @@ namespace GematriaCalc
 
         private void calcBtnClicked(object sender, RoutedEventArgs e)
         {
+            getSum();
+        }
+
+        private void enterKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                getSum();
+            }
+        }
+
+        private void getSum()
+        {
             int len = 0;
             int Σ = 0;
 
             // Convert the string into an array and push it into logosList
-            foreach(char c in logosBx.Text)
+            foreach (char c in logosBx.Text)
             {
                 logosList.Add(c.ToString());
             }
             while (len < logosList.Count)
             {
-                if(logosList[len].Contains("a"))
+                if (logosList[len].Contains("a"))
                 {
                     Σ += 1;
                 }
-                if(logosList[len].Contains("b"))
+                if (logosList[len].Contains("b"))
                 {
                     Σ += 2;
                 }
-                if(logosList[len].Contains("g"))
+                if (logosList[len].Contains("g"))
                 {
                     Σ += 3;
                 }

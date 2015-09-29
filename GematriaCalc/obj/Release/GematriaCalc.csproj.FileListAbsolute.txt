@@ -11,3 +11,17 @@ C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.csproj.GenerateResource.Cache
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.exe
 C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\Release\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\MainWindow.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc_MarkupCompile.cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc_MarkupCompile.lref
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\MainWindow.baml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.g.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Release\GematriaCalc.csproj.GenerateResource.Cache

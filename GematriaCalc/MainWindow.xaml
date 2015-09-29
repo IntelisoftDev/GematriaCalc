@@ -35,7 +35,7 @@
                 <Button x:Name="xloseBtn" Style="{StaticResource HoverColor}" Background="Black" Foreground="White" Content="x" Margin="482,0,0,0" Height="42" BorderBrush="{x:Null}" Click="XloseClicked" MouseMove="XloseMouseMove" MouseLeave="XcloseMouseLeave" Opacity="0.75" FontFamily="Calibri" BorderThickness="1,1,0,1" Width="42" HorizontalAlignment="Right" FontSize="18.667"/>
             </Grid>
         </Border>
-        <TextBox x:Name="logosBx" Height="34" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="204,63,201,0" HorizontalAlignment="Center" FontFamily="Symbol" FontSize="21.333"/>
+        <TextBox x:Name="logosBx" Height="34" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="204,63,201,0" HorizontalAlignment="Center" FontFamily="Symbol" FontSize="21.333" KeyDown="enterKeyDown"/>
         <GroupBox x:Name="groupBox" Header="Gematria&#xD;&#xA;" Height="218" VerticalAlignment="Top" Margin="25,102,27,0" HorizontalAlignment="Center" Width="473" FontFamily="Microsoft Sans Serif" Foreground="White">
             <Grid Margin="2,0,-2,0">
                 <Button x:Name="aBtn" Width="45" Height="40" Content="a" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="Symbol" FontSize="26.667" Margin="10,10,406,134" Click="aBtnClicked"/>

@@ -1,0 +1,13 @@
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\MainWindow.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc_MarkupCompile.cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc_MarkupCompile.lref
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\MainWindow.baml
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.g.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.exe
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.pdb

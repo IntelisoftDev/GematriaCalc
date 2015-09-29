@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\Debug\
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\
 GematriaCalc
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\App.xaml
 11151548125
 
-91311692172
+5-2017746502
 15-199009658
 MainWindow.xaml;
 
-True
+False
 
