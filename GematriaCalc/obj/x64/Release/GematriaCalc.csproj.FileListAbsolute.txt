@@ -11,3 +11,4 @@ C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.csproj.GenerateResource.Cache
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.exe
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.pdb
+C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.csprojResolveAssemblyReference.cache
