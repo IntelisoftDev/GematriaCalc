@@ -15,3 +15,25 @@ C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\AboutWindow.g.cs
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\AboutWindow.baml
 C:\Users\Andrew\Documents\Visual Studio 2015\Projects\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.Resource1.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.exe.config
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.exe
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.pdb
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.exe.manifest
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.application
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.exe
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\bin\x64\Release\GematriaCalc.pdb
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.csprojResolveAssemblyReference.cache
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\AboutWindow.g.cs
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\MainWindow.g.cs
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\App.g.cs
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc_MarkupCompile.cache
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc_MarkupCompile.lref
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\AboutWindow.baml
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\MainWindow.baml
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.g.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.Properties.Resources.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.Resource1.resources
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.csproj.GenerateResource.Cache
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.TrustInfo.xml
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.exe.manifest
+C:\Users\ahowson.EDOCNY2\Documents\GitHub\GematriaCalc\GematriaCalc\obj\x64\Release\GematriaCalc.application
