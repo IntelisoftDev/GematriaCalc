@@ -1,0 +1,16 @@
+﻿<Window x:Class="GematriaCalc.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GematriaCalc"
+        mc:Ignorable="d"
+        Title="About" Height="475" Width="410" Icon="alphquery.ico">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <TextBox x:Name="LicenseBx" HorizontalAlignment="Left" Height="266" Margin="13,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True">
+        </TextBox>
+        <Button x:Name="button" Content="Close" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Width="76" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Click="CloseBtnClicked" Grid.RowSpan="4"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="90,39,0,0" TextWrapping="Wrap" Text="Copyright  © 2015 InteliSoftDev." VerticalAlignment="Top" Height="43" Width="220"/>
+    </Grid>
+</Window>

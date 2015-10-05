@@ -342,7 +342,8 @@ namespace GematriaCalc
 
         private void aboutBtnClicked(object sender, RoutedEventArgs e)
         {
-
+            AboutWindow aboutWindow = new AboutWindow();
+            aboutWindow.Show();
         }
     }
 }
