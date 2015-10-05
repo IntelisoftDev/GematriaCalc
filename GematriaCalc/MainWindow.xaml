@@ -70,6 +70,7 @@
             <Label x:Name="sumLbn" Content="" HorizontalAlignment="Left" Margin="69,34,0,0" VerticalAlignment="Top" Background="White" Width="138" FontFamily="DejaVu Sans"/>
             <Button x:Name="calcBtn" Content="Calculate" HorizontalAlignment="Left" Margin="228,34,0,0" VerticalAlignment="Top" Width="75" Height="26" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="dejavu sans" Click="calcBtnClicked"/>
         </Grid>
-        <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="54" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="dejavu sans" Click="exitBtnClicked" />
+        <Button x:Name="exitBtn" Content="Exit" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" FontFamily="dejavu sans" Click="exitBtnClicked" Height="20" />
+        <Button x:Name="aboutBtn" Content="About" HorizontalAlignment="Left" Margin="10,422,0,0" VerticalAlignment="Top" Width="75" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Click="aboutBtnClicked"/>
     </Grid>
 </Window>

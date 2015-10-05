@@ -339,5 +339,10 @@ namespace GematriaCalc
             sumLbn.Content = Σ.ToString();
             Σ = 0;
         }
+
+        private void aboutBtnClicked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
