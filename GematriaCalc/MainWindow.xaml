@@ -26,7 +26,7 @@
     <Grid x:Name="mainGrid">
         <Border x:Name="TitleBar" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top" Height="44" VerticalAlignment="Top" Background="Black" MouseDown="TitleBarMouseDown">
             <Grid >
-                <Image x:Name="appIconImg" Source="alphquery.ico" Width="24" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                <Image x:Name="appIconImg" Source="alphaquery.ico" Width="24" HorizontalAlignment="Left" Margin="10,0,0,0"/>
                 <TextBlock x:Name="TitleBlk" Text="Gematria Calc" Foreground="#FFFDFDFD" Margin="45,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left">
                     <TextBlock.Effect>
                         <DropShadowEffect Color="Gray" ShadowDepth="3"/>

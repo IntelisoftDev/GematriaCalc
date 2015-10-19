@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("alphquery.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("alphaquery.ico")]
 
 

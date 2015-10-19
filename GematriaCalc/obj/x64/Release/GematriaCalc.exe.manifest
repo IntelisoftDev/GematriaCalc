@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="GematriaCalc.exe" version="2.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
-  <description asmv2:iconFile="alphquery.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="alphaquery.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="GematriaCalc" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="GematriaCalc" version="2.1.0.0" language="neutral" processorArchitecture="amd64" />
     <commandLine file="GematriaCalc.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,24 +43,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GematriaCalc.exe" size="351168">
-      <assemblyIdentity name="GematriaCalc" version="2.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GematriaCalc.exe" size="306112">
+      <assemblyIdentity name="GematriaCalc" version="2.1.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n81hk2MnICArM7A61yw6SYP/lSeZhgkR9TyKPBfRets=</dsig:DigestValue>
+        <dsig:DigestValue>EkbmOvyElDSu3ZKIlEuzSzz9L5DU0i04IzCKSRQyuDM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="alphquery.ico" size="159800">
+  <file name="alphaquery.ico" size="57341">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tXrx3tiaHQKysE0T6A/7G6Q7VT7YL8AmW/AE63P3Hn0=</dsig:DigestValue>
+      <dsig:DigestValue>UBUnN1Wsu7BrCxaC2qFUuqqaPrr0f5OOQLBE0R4Sm/s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="GematriaCalc.exe.config" size="189">

@@ -11,6 +11,6 @@
                  ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True">
         </TextBox>
         <Button x:Name="button" Content="Close" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Width="76" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Click="CloseBtnClicked" Grid.RowSpan="4"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="90,39,0,0" TextWrapping="Wrap" Text="Copyright  © 2015 InteliSoftDev." VerticalAlignment="Top" Height="43" Width="220"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="90,39,0,0" TextWrapping="Wrap" Text="Copyright  © 2015 InteliSoftDev.   Version 2.1" VerticalAlignment="Top" Height="43" Width="220"/>
     </Grid>
 </Window>
